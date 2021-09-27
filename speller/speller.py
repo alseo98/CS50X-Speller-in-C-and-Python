@@ -10,8 +10,6 @@ from dictionary import check, load, size, unload
 
 LENGTH = 45
 
-#DICTIONARY = "dictionaries/large"
-
 #check for correct number of args
 if len(argv) != 2 and len(argv) != 3:
     exit("Usage: speller [dictionary] text")
